@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523EB5BD2821FE48006675AD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB5BC2821FE47006675AD /* TableViewController.swift */; };
+		52629448282835EF00329F1A /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52629447282835EF00329F1A /* Brand.swift */; };
+		5262945328283DA300329F1A /* CustomRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262945128283DA300329F1A /* CustomRowTableViewCell.swift */; };
+		5262945428283DA300329F1A /* CustomRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5262945228283DA300329F1A /* CustomRowTableViewCell.xib */; };
+		528656DC281A15EB007F13AD /* registerAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528656DB281A15EB007F13AD /* registerAccViewController.swift */; };
+		528C7D6128318A2E006E3ED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C7D6028318A2D006E3ED5 /* ViewController.swift */; };
+		528C7D6328318AEA006E3ED5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C7D6228318AEA006E3ED5 /* SettingTableViewCell.swift */; };
+		528C7D6528318B29006E3ED5 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C7D6428318B29006E3ED5 /* SwitchTableViewCell.swift */; };
+		52B6B12D281E283000E8DDEE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 52B6B12C281E283000E8DDEE /* FirebaseAnalytics */; };
+		52B6B12F281E283000E8DDEE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 52B6B12E281E283000E8DDEE /* FirebaseAuth */; };
+		52B6B131281E283000E8DDEE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 52B6B130281E283000E8DDEE /* FirebaseDatabase */; };
+		52B6B133281E283000E8DDEE /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 52B6B132281E283000E8DDEE /* FirebaseFunctions */; };
+		52B6B135281E283000E8DDEE /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 52B6B134281E283000E8DDEE /* FirebaseMessaging */; };
+		52B6B139281E33BB00E8DDEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52B6B138281E33BB00E8DDEE /* GoogleService-Info.plist */; };
+		52EE6F4128189E7300F483A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F4028189E7300F483A4 /* AppDelegate.swift */; };
+		52EE6F4328189E7300F483A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F4228189E7300F483A4 /* SceneDelegate.swift */; };
+		52EE6F4528189E7300F483A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F4428189E7300F483A4 /* LoginViewController.swift */; };
+		52EE6F4828189E7300F483A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EE6F4628189E7300F483A4 /* Main.storyboard */; };
+		52EE6F4A28189E7800F483A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EE6F4928189E7800F483A4 /* Assets.xcassets */; };
+		52EE6F4D28189E7800F483A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EE6F4B28189E7800F483A4 /* LaunchScreen.storyboard */; };
+		52EE6F5828189E7900F483A4 /* cignifi_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F5728189E7900F483A4 /* cignifi_challengeTests.swift */; };
+		52EE6F6228189E7900F483A4 /* cignifi_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F6128189E7900F483A4 /* cignifi_challengeUITests.swift */; };
+		52EE6F6428189E7900F483A4 /* cignifi_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE6F6328189E7900F483A4 /* cignifi_challengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EE6F5428189E7900F483A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EE6F3528189E7300F483A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EE6F3C28189E7300F483A4;
+			remoteInfo = "cignifi-challenge";
+		};
+		52EE6F5E28189E7900F483A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EE6F3528189E7300F483A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EE6F3C28189E7300F483A4;
+			remoteInfo = "cignifi-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		523EB5BC2821FE47006675AD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		52629447282835EF00329F1A /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		5262945128283DA300329F1A /* CustomRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowTableViewCell.swift; sourceTree = "<group>"; };
+		5262945228283DA300329F1A /* CustomRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomRowTableViewCell.xib; sourceTree = "<group>"; };
+		528656DB281A15EB007F13AD /* registerAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerAccViewController.swift; sourceTree = "<group>"; };
+		528C7D6028318A2D006E3ED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		528C7D6228318AEA006E3ED5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		528C7D6428318B29006E3ED5 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		52B6B138281E33BB00E8DDEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52EE6F3D28189E7300F483A4 /* cignifi-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cignifi-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE6F4028189E7300F483A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52EE6F4228189E7300F483A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52EE6F4428189E7300F483A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52EE6F4728189E7300F483A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52EE6F4928189E7800F483A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EE6F4C28189E7800F483A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EE6F4E28189E7800F483A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EE6F5328189E7900F483A4 /* cignifi-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cignifi-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE6F5728189E7900F483A4 /* cignifi_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cignifi_challengeTests.swift; sourceTree = "<group>"; };
+		52EE6F5D28189E7900F483A4 /* cignifi-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cignifi-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE6F6128189E7900F483A4 /* cignifi_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cignifi_challengeUITests.swift; sourceTree = "<group>"; };
+		52EE6F6328189E7900F483A4 /* cignifi_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cignifi_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EE6F3A28189E7300F483A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B6B131281E283000E8DDEE /* FirebaseDatabase in Frameworks */,
+				52B6B12D281E283000E8DDEE /* FirebaseAnalytics in Frameworks */,
+				52B6B135281E283000E8DDEE /* FirebaseMessaging in Frameworks */,
+				52B6B12F281E283000E8DDEE /* FirebaseAuth in Frameworks */,
+				52B6B133281E283000E8DDEE /* FirebaseFunctions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F5028189E7900F483A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F5A28189E7900F483A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526294462828358500329F1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52629447282835EF00329F1A /* Brand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5262945028283D8600329F1A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5262945128283DA300329F1A /* CustomRowTableViewCell.swift */,
+				5262945228283DA300329F1A /* CustomRowTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		52EE6F3428189E7300F483A4 = {
+			isa = PBXGroup;
+			children = (
+				52EE6F3F28189E7300F483A4 /* cignifi-challenge */,
+				52EE6F5628189E7900F483A4 /* cignifi-challengeTests */,
+				52EE6F6028189E7900F483A4 /* cignifi-challengeUITests */,
+				52EE6F3E28189E7300F483A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EE6F3E28189E7300F483A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EE6F3D28189E7300F483A4 /* cignifi-challenge.app */,
+				52EE6F5328189E7900F483A4 /* cignifi-challengeTests.xctest */,
+				52EE6F5D28189E7900F483A4 /* cignifi-challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EE6F3F28189E7300F483A4 /* cignifi-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				5262945028283D8600329F1A /* cell */,
+				526294462828358500329F1A /* Model */,
+				52EE6F4028189E7300F483A4 /* AppDelegate.swift */,
+				52EE6F4228189E7300F483A4 /* SceneDelegate.swift */,
+				52EE6F4428189E7300F483A4 /* LoginViewController.swift */,
+				528656DB281A15EB007F13AD /* registerAccViewController.swift */,
+				523EB5BC2821FE47006675AD /* TableViewController.swift */,
+				528C7D6028318A2D006E3ED5 /* ViewController.swift */,
+				528C7D6228318AEA006E3ED5 /* SettingTableViewCell.swift */,
+				528C7D6428318B29006E3ED5 /* SwitchTableViewCell.swift */,
+				52EE6F4628189E7300F483A4 /* Main.storyboard */,
+				52EE6F4928189E7800F483A4 /* Assets.xcassets */,
+				52EE6F4B28189E7800F483A4 /* LaunchScreen.storyboard */,
+				52EE6F4E28189E7800F483A4 /* Info.plist */,
+				52B6B138281E33BB00E8DDEE /* GoogleService-Info.plist */,
+			);
+			path = "cignifi-challenge";
+			sourceTree = "<group>";
+		};
+		52EE6F5628189E7900F483A4 /* cignifi-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EE6F5728189E7900F483A4 /* cignifi_challengeTests.swift */,
+			);
+			path = "cignifi-challengeTests";
+			sourceTree = "<group>";
+		};
+		52EE6F6028189E7900F483A4 /* cignifi-challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52EE6F6128189E7900F483A4 /* cignifi_challengeUITests.swift */,
+				52EE6F6328189E7900F483A4 /* cignifi_challengeUITestsLaunchTests.swift */,
+			);
+			path = "cignifi-challengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EE6F3C28189E7300F483A4 /* cignifi-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE6F6728189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challenge" */;
+			buildPhases = (
+				52EE6F3928189E7300F483A4 /* Sources */,
+				52EE6F3A28189E7300F483A4 /* Frameworks */,
+				52EE6F3B28189E7300F483A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cignifi-challenge";
+			packageProductDependencies = (
+				52B6B12C281E283000E8DDEE /* FirebaseAnalytics */,
+				52B6B12E281E283000E8DDEE /* FirebaseAuth */,
+				52B6B130281E283000E8DDEE /* FirebaseDatabase */,
+				52B6B132281E283000E8DDEE /* FirebaseFunctions */,
+				52B6B134281E283000E8DDEE /* FirebaseMessaging */,
+			);
+			productName = "cignifi-challenge";
+			productReference = 52EE6F3D28189E7300F483A4 /* cignifi-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EE6F5228189E7900F483A4 /* cignifi-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE6F6A28189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challengeTests" */;
+			buildPhases = (
+				52EE6F4F28189E7900F483A4 /* Sources */,
+				52EE6F5028189E7900F483A4 /* Frameworks */,
+				52EE6F5128189E7900F483A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EE6F5528189E7900F483A4 /* PBXTargetDependency */,
+			);
+			name = "cignifi-challengeTests";
+			productName = "cignifi-challengeTests";
+			productReference = 52EE6F5328189E7900F483A4 /* cignifi-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52EE6F5C28189E7900F483A4 /* cignifi-challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE6F6D28189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challengeUITests" */;
+			buildPhases = (
+				52EE6F5928189E7900F483A4 /* Sources */,
+				52EE6F5A28189E7900F483A4 /* Frameworks */,
+				52EE6F5B28189E7900F483A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EE6F5F28189E7900F483A4 /* PBXTargetDependency */,
+			);
+			name = "cignifi-challengeUITests";
+			productName = "cignifi-challengeUITests";
+			productReference = 52EE6F5D28189E7900F483A4 /* cignifi-challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EE6F3528189E7300F483A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					52EE6F3C28189E7300F483A4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					52EE6F5228189E7900F483A4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 52EE6F3C28189E7300F483A4;
+					};
+					52EE6F5C28189E7900F483A4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 52EE6F3C28189E7300F483A4;
+					};
+				};
+			};
+			buildConfigurationList = 52EE6F3828189E7300F483A4 /* Build configuration list for PBXProject "cignifi-challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EE6F3428189E7300F483A4;
+			packageReferences = (
+				52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 52EE6F3E28189E7300F483A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EE6F3C28189E7300F483A4 /* cignifi-challenge */,
+				52EE6F5228189E7900F483A4 /* cignifi-challengeTests */,
+				52EE6F5C28189E7900F483A4 /* cignifi-challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EE6F3B28189E7300F483A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262945428283DA300329F1A /* CustomRowTableViewCell.xib in Resources */,
+				52EE6F4D28189E7800F483A4 /* LaunchScreen.storyboard in Resources */,
+				52B6B139281E33BB00E8DDEE /* GoogleService-Info.plist in Resources */,
+				52EE6F4A28189E7800F483A4 /* Assets.xcassets in Resources */,
+				52EE6F4828189E7300F483A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F5128189E7900F483A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F5B28189E7900F483A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EE6F3928189E7300F483A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB5BD2821FE48006675AD /* TableViewController.swift in Sources */,
+				528C7D6528318B29006E3ED5 /* SwitchTableViewCell.swift in Sources */,
+				52EE6F4528189E7300F483A4 /* LoginViewController.swift in Sources */,
+				528C7D6128318A2E006E3ED5 /* ViewController.swift in Sources */,
+				528656DC281A15EB007F13AD /* registerAccViewController.swift in Sources */,
+				52629448282835EF00329F1A /* Brand.swift in Sources */,
+				528C7D6328318AEA006E3ED5 /* SettingTableViewCell.swift in Sources */,
+				5262945328283DA300329F1A /* CustomRowTableViewCell.swift in Sources */,
+				52EE6F4128189E7300F483A4 /* AppDelegate.swift in Sources */,
+				52EE6F4328189E7300F483A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F4F28189E7900F483A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE6F5828189E7900F483A4 /* cignifi_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE6F5928189E7900F483A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE6F6428189E7900F483A4 /* cignifi_challengeUITestsLaunchTests.swift in Sources */,
+				52EE6F6228189E7900F483A4 /* cignifi_challengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EE6F5528189E7900F483A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EE6F3C28189E7300F483A4 /* cignifi-challenge */;
+			targetProxy = 52EE6F5428189E7900F483A4 /* PBXContainerItemProxy */;
+		};
+		52EE6F5F28189E7900F483A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EE6F3C28189E7300F483A4 /* cignifi-challenge */;
+			targetProxy = 52EE6F5E28189E7900F483A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EE6F4628189E7300F483A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EE6F4728189E7300F483A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52EE6F4B28189E7800F483A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EE6F4C28189E7800F483A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EE6F6528189E7900F483A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EE6F6628189E7900F483A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EE6F6828189E7900F483A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cignifi-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EE6F6928189E7900F483A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cignifi-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52EE6F6B28189E7900F483A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cignifi-challenge.app/cignifi-challenge";
+			};
+			name = Debug;
+		};
+		52EE6F6C28189E7900F483A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cignifi-challenge.app/cignifi-challenge";
+			};
+			name = Release;
+		};
+		52EE6F6E28189E7900F483A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cignifi-challenge";
+			};
+			name = Debug;
+		};
+		52EE6F6F28189E7900F483A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ867ZQ774;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "william.cignifi-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cignifi-challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EE6F3828189E7300F483A4 /* Build configuration list for PBXProject "cignifi-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE6F6528189E7900F483A4 /* Debug */,
+				52EE6F6628189E7900F483A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE6F6728189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE6F6828189E7900F483A4 /* Debug */,
+				52EE6F6928189E7900F483A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE6F6A28189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE6F6B28189E7900F483A4 /* Debug */,
+				52EE6F6C28189E7900F483A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE6F6D28189E7900F483A4 /* Build configuration list for PBXNativeTarget "cignifi-challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE6F6E28189E7900F483A4 /* Debug */,
+				52EE6F6F28189E7900F483A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B6B12C281E283000E8DDEE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		52B6B12E281E283000E8DDEE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		52B6B130281E283000E8DDEE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		52B6B132281E283000E8DDEE /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		52B6B134281E283000E8DDEE /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B6B12B281E283000E8DDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52EE6F3528189E7300F483A4 /* Project object */;
+}
